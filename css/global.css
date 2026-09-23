@@ -72,3 +72,23 @@ input, select{
 input:focus{
     border: none;
 }
+.card{
+    background-color: white;
+    z-index: 2;
+    padding: 5px;
+    box-shadow: 10px 10px 10px #F3F4F4;
+    border-radius: 30px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.section-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
