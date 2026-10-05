@@ -71,20 +71,27 @@ input, select{
 
 input:focus{
     border: none;
+    outline: none;
 }
 .card{
+    text-align: center;
     background-color: white;
-    z-index: 2;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px 4px #EEEEEE;
+    width: 250px;
+    height: 250px;
     padding: 5px;
-    box-shadow: 10px 10px 10px #F3F4F4;
-    border-radius: 30px;
 }
-
+.card:hover{
+    margin: 2px;
+    border-style: solid;
+    border-color: #70FFD2;
+    border-width: 1px;
+}
 .card-container{
     display: flex;
-    justify-content: space-around;
-    
-    
+    justify-content: center;
+    gap: 20px;
 }
 
 .section-intro{
