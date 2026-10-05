@@ -10,16 +10,29 @@ li{
     margin: 12px;  
 }
 
-.header-link:hover{
-    text-decoration: underline;
-    text-underline-offset: 7px;
-    text-decoration-color: #55E07E;
-}
+
 
 a{
     text-decoration: none;
     color: white;
-    
+    position: relative;
+}
+
+a::after{
+
+    position: absolute;
+    content: '';
+    top: 16px;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 0px;
+    transition: width 0.4s;
+}
+
+a:hover:after{
+    background-color: #55E07E;
+    width: 25px;
 }
 
 button{
