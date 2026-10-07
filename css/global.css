@@ -141,3 +141,13 @@ footer{
     margin: 25px;
 }
 
+@font-face {
+    font-family: "kibabu";
+    src: url("./../fonts/Lato-Light.ttf");
+}
+
+body{
+    font-family: 'kibabu';
+    font-style: normal;
+    font-weight: bold;
+}
