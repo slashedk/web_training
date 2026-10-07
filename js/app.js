@@ -20,3 +20,6 @@ console.log('resultat de la division', division,'\n resultat du modulo', modulo 
 //  affiche le resultat d'une operation console.log(trm + trmdeux)
 // affiche deux resultats avec retour a la ligne console.log('resultat de la division', division,'\n resultat du modulo', modulo  )
 
+// puissance simple ou avec Math
+
+console.log(first_term * first_term,  Math.pow(first_term,2) );
