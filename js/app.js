@@ -1,20 +1,17 @@
-// var, let, const
+var first_term = 12
 
-// déclaration de variable avec assignement
-var x = 12;
-
-console.log(z + 12)
-
-var z = 12
-
-function scope_testing() {
-    console.log(zaid)
-    let sexe = 'masculin'
-}
+var second_term = 45
 
 
-// scope_testing()
+var result = first_term + second_term
 
+var sec_result = first_term * second_term
 
-let zaid = 'moina'
+console.log( "le premier terme =",first_term )
+
+// affichage dans la console
+
+//  affiche un seul resultat console.log(trm)
+//  affiche deux resultats console.log(trm , trmdeux)
+//  affiche le resultat d'une operation console.log(trm + trmdeux)
 
