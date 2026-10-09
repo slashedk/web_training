@@ -23,16 +23,67 @@ console.log('resultat de la division', division,'\n resultat du modulo', modulo 
 // type string
 
 var nom = 'ibn'
-
-var prenom = 'ali'
+var mail = 'x@mail.km'
+var prenom = 'x'
 // affichage avec concatenation
 console.log('nom complet: ', nom + ' ' + prenom);
 // affichage sans concatenation
 console.log('nom complet: ', nom , prenom);
 
-// longueur 
+// longueur
+console.log('longueur', nom.length );
 
-console.log('longueur', nom.length);
+//  position
+console.log('position de n dans nom', nom.indexOf('n') );
+
+console.log('char a la position 0', nom.charAt(0) );
+
+// la chaine inclu
+console.log(mail.includes('@'));
+
+// suppression des espaces avec trim, trimEnd, trimStart
+
+var y = ' john '
+var z = 'jack'
+
+console.log(y.trimEnd()+ z);
+// remplacement de char
+
+var soleil = 'solail '
+
+console.log('avant remp', soleil, 'apres remp', soleil.replace('a', 'e'));
+
+soleil = soleil.replace('a', 'e')
+
+// type int
+var x = 2
+
+// type float
+var decimal = 12.34
+
+// incrementation ++nomdevariable, decrementation --nomdevariable
+
+// console.log(--x);
+
+// console.log(x+= 6);
+
+// equivaut a
+
+console.log(x + 6);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
