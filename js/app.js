@@ -56,10 +56,10 @@ console.log('avant remp', soleil, 'apres remp', soleil.replace('a', 'e'));
 soleil = soleil.replace('a', 'e')
 
 // type int
-var x = 2
+var x = 16
 
 // type float
-var decimal = 12.34
+var decimal = 12.50
 
 // incrementation ++nomdevariable, decrementation --nomdevariable
 
@@ -70,6 +70,13 @@ var decimal = 12.34
 // equivaut a
 
 console.log(x + 6);
+
+// Objet Math, arrondissement Math.round(nomdevariable), carre Math.sqrt(nomdevariable), Math.PI
+
+console.log(decimal, Math.round(decimal));
+
+// nombre aleatoire Math.random()
+console.log(Math.sqrt(x), Math.random() );
 
 
 
