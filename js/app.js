@@ -19,7 +19,20 @@ console.log('resultat de la division', division,'\n resultat du modulo', modulo 
 //  affiche deux resultats console.log(trm , trmdeux)
 //  affiche le resultat d'une operation console.log(trm + trmdeux)
 // affiche deux resultats avec retour a la ligne console.log('resultat de la division', division,'\n resultat du modulo', modulo  )
-
 // puissance simple ou avec Math
+// type string
 
-console.log(first_term * first_term,  Math.pow(first_term,2) );
+var nom = 'ibn'
+
+var prenom = 'ali'
+// affichage avec concatenation
+console.log('nom complet: ', nom + ' ' + prenom);
+// affichage sans concatenation
+console.log('nom complet: ', nom , prenom);
+
+// longueur 
+
+console.log('longueur', nom.length);
+
+
+
