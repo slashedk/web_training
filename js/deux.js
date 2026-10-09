@@ -34,6 +34,20 @@ prenoms.fill('cr7', 2)
 
 console.log(prenoms);
 
+// comparaison de variable avec structure de controle == >= <= === > < !=
+
+
+var petit = 12
+
+var grand = 19
+
+if ( petit != grand ) {
+    console.log(true);
+    
+} else {
+    console.log(false);
+    
+}
 
 
 
