@@ -50,6 +50,11 @@ if ( petit != grand ) {
 }
 
 
+// if (une condition est remplie) {
+    // fait ceci
+// } else {
+//    sinon fait cela
+// }
 
 
 
