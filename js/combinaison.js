@@ -28,6 +28,13 @@
 
 let lien = document.querySelector('a')
 
+// changement de texte
+
+lien.innerText = "Clac"
+
+let liens = document.querySelectorAll('a')
+
+liens[1].innerText = "Home"
 
 
 
