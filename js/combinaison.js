@@ -26,6 +26,10 @@
 //     console.log(lien,'\n', liens);
 // })
 
+let lien = document.querySelector('a')
+
+
+
 
 
 
