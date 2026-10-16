@@ -38,6 +38,42 @@ var coordonnes = {
 
 // for
 
+for (let index = 0; index < 10; index++) {
+    
+    console.log('bonjour');
+    
+}
+
+// do while faire tant que
+
+// A eviter boucle infinie avec do while
+
+// do {
+//     console.log('x');
+    
+// } while (true);
+
+// boucle  do while
+do {
+    
+    console.log('x');
+    
+} while (false === true);
+
+// boucle infinie while
+// while (true === true) {
+//     console.log("c con mais ca marche");
+// }
 
 
+// boucle finie avec while
+
+let stop = "start"
+
+while (stop == "start") {
+
+    console.log("la course n'est pas finie");
+    
+    stop = "end"
+}
 
