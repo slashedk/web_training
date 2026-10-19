@@ -78,7 +78,27 @@ function btn2() {
 // bouton1.addEventListener('click', btn1 )
 // bouton2.addEventListener('click', btn2 )
 
+// correction theme
 
+var theme = document.getElementById('theme')
+var corps = document.getElementById('bd')
 
+function changeApparence() {
+    if (corps.classList.contains('jour')) {
+        
+        corps.classList.remove('jour')
+        corps.classList.add('nuit')
+        theme.textContent = 'nuit'
+        
+    }else{
 
+        corps.classList.remove('nuit')
+        corps.classList.add('jour')
+        theme.textContent = 'jour'
 
+    }
+
+    
+}
+
+theme.addEventListener('click', changeApparence)

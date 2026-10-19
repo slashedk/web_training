@@ -11,3 +11,13 @@
 #theme{
     border: none;
 }
+
+/* correction */
+
+.nuit{
+    background-color: black;
+}
+
+.jour{
+    background-color: white;
+}
