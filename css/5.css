@@ -1,4 +1,9 @@
-.magic-paragraph{
+.augmente{
     color: aqua;
+    font-size: xx-large;
+}
+
+.diminue{
+    color: cadetblue;
     font-size: xx-small;
 }
