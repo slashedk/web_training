@@ -30,10 +30,21 @@ let lien = document.querySelector('a')
 
 // changement de contenu
 
-lien.innerText = "Clac"
+// lien.innerText = "Clac"
 
 let liens = document.querySelectorAll('a')
 
-liens[1].innerText = "Home"
+
+// liens[1].innerText = "Home"
+
+// selection avec getElementById et getElementByClassName
+
+
+var clac = document.getElementById("clac")
+
+var links = document.getElementsByClassName("header-link")
+
+console.log(links);
+
 
 
