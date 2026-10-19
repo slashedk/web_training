@@ -42,3 +42,11 @@ lien.addEventListener('click', ()=>{
     // changement d'url navigation
     location.assign("https://www.mozilla.org")
 })
+
+
+let aff = document.getElementById('afficher')
+let bloc = document.getElementById('bloc')
+
+aff.addEventListener('click', ()=>{
+bloc.setAttribute('hidden', true)
+})
