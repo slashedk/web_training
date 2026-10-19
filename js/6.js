@@ -35,3 +35,10 @@ btn.addEventListener('click', ()=>{
     
     ajoutez()
 })
+
+var lien = document.getElementById('lien')
+
+lien.addEventListener('click', ()=>{
+    // changement d'url navigation
+    location.assign("https://www.mozilla.org")
+})
