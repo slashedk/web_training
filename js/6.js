@@ -4,17 +4,29 @@
 let elmnt = document.getElementById('nom')
 
 
+
 function ajoutez() {
     
     var ul = document.querySelector('ul')
     // creation d'element
     var li = document.createElement('li')
+    let sup = document.createElement('button')
 
-    li.textContent = elmnt.value
-
+    
     // ajout d'element a la fin
-    ul.appendChild(li)
-    elmnt.value = ''
+    if (elmnt.value != '') {
+        li.textContent = elmnt.value
+        ul.appendChild(li)
+
+        elmnt.value = ''
+        sup.textContent = 'X'
+        ul.appendChild(sup)
+    }
+
+    sup.addEventListener('click', ()=>{
+        li.remove()
+        sup.remove()
+    })
 }
 
 const btn = document.getElementById('envoie')
