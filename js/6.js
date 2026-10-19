@@ -15,12 +15,12 @@ function ajoutez() {
     
     // ajout d'element a la fin
     if (elmnt.value != '') {
-        li.textContent = elmnt.value
+        li.textContent = elmnt.value + '  '
         ul.appendChild(li)
 
         elmnt.value = ''
         sup.textContent = 'X'
-        ul.appendChild(sup)
+        li.appendChild(sup)
     }
 
     sup.addEventListener('click', ()=>{
