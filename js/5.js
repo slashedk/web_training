@@ -37,8 +37,9 @@ var bouton2 = document.getElementById('btn2')
     
 // }
 
-bouton1.addEventListener('click', () => {
-    
+// correction
+
+function btn1() {
     if (p.classList.contains('diminue')) {
 
         p.classList.remove('diminue')
@@ -54,11 +55,9 @@ bouton1.addEventListener('click', () => {
         p.classList.add('augmente')
 
     }
+}
 
-})
-
-
-bouton2.addEventListener('click', () => {
+function btn2() {
     if (p.classList.contains('augmente')) {
 
         p.classList.remove('augmente')
@@ -74,7 +73,10 @@ bouton2.addEventListener('click', () => {
         p.classList.add('diminue')
 
     }
-})
+}
+
+// bouton1.addEventListener('click', btn1 )
+// bouton2.addEventListener('click', btn2 )
 
 
 
